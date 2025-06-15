@@ -80,7 +80,7 @@ public class DigitalDiaryUI {
         HBox moodAndQuoteBox = new HBox(10, new Label("Mood:"), moodComboBox, motivationalQuoteLabel);
         moodAndQuoteBox.setSpacing(10);
 
-        Button saveButton = new Button("Save Diary Entry");
+        Button saveButton = new Button("Save New Diary Entry");
         Button editButton = new Button("Edit Diary Entry");
         saveEditButton = new Button("Save Changes");
         saveEditButton.setDisable(true);
@@ -292,3 +292,4 @@ public class DigitalDiaryUI {
         }
     }
 }
+
